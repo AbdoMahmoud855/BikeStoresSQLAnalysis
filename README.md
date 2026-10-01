@@ -70,15 +70,15 @@ GROUP BY o.customer_id;
 2. Download the BikeStores sample database and restore or run its setup script.
 3. Open `bikestores_analysis.sql` and run each query.
 
-## 🚀 Next Steps
-
-- Build a **Power BI / Tableau** dashboard on top of these results (sales by store, top staff, top products)
-- Handle ties explicitly in the ranking queries
-- Add time-based trend analysis with `LAG()` and `LEAD()`
-
 ## 🛠️ Tools
 
 ![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
 ![Window Functions](https://img.shields.io/badge/Window%20Functions-0A66C2?style=for-the-badge)
 ![CTEs](https://img.shields.io/badge/CTEs-444444?style=for-the-badge)
+---
+## 🗂️ Data Source
+The dataset is the BikeStores sample database, available here:
+🔗 [Download BikeStores](https://www.sqlservertutorial.net/getting-started/load-sample-database/)
+
+> The data is not included in this repository. Download it and run the setup script before executing the queries
 
